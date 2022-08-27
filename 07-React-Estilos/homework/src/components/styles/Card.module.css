@@ -1,0 +1,38 @@
+.contenedor {
+  border: rgba(22, 22, 22, 0.89) solid 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  position: relative;
+  background-color: rgba(100, 148, 237, 0.212);
+}
+
+.infoCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoCont img {
+  background-color: rgba(161, 161, 161, 0.918);
+  border-radius: 5px;
+  border: 1px solid black
+}
+
+.btn {
+  height: min-content;
+  width: min-content;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: rgb(250, 53, 53);
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}

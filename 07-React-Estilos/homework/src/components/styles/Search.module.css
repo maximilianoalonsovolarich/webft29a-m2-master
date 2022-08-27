@@ -1,0 +1,14 @@
+.contenedor input {
+  background-color: rgba(243, 243, 243, 0.767);
+  border: solid 1px gray;
+  border-radius: 2px;
+
+
+}
+
+button {
+  background-color: rgba(161, 161, 161, 0.918);
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+}
